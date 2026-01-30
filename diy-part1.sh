@@ -14,4 +14,4 @@
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-sed -i 's/git;openwrt-23\.05/git;openwrt-24.10/g' feeds.conf.default
+sed -i 's/git;openwrt-23\.05/git/g' feeds.conf.default
