@@ -26,3 +26,6 @@ rm -rf feeds/kenzo/luci-theme-argon
 sed -i 's/luci-theme-bootstrap/luci-theme-argone/g' feeds/luci/collections/luci/Makefile
 sed -i 's/luci-theme-bootstrap/luci-theme-argone/g' feeds/luci/collections/luci-nginx/Makefile
 #sed -i 's/luci-theme-bootstrap/luci-theme-edge/g' feeds/luci/collections/luci/Makefile
+
+./scripts/feeds update helloworld
+./scripts/feeds install -a -f -p helloworld
